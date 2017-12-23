@@ -3,11 +3,16 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ReadExcelData.ReadExcel">
+      <class name="testECommerceSite.testLogin">
         <methods>
-          <include name="workbook"/>
+          <include name="Logout"/>
+          <include name="inputEmail"/>
+          <include name="inputPassword"/>
+          <include name="openLoginpage"/>
+          <include name="openBrowser"/>
+          <include name="clickLoginbutton"/>
         </methods>
-      </class> <!-- ReadExcelData.ReadExcel -->
+      </class> <!-- testECommerceSite.testLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

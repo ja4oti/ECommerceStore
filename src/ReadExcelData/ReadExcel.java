@@ -8,10 +8,15 @@ import org.testng.annotations.Test;
 
 public class ReadExcel {
 	
+	
+	public ReadExcel(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Test
   public void workbook() throws Exception {
 		
-		File src= new File("C:\\Users\\Tezza\\eclipse-workspace\\ExcelData\\TestData.xlsx");
+		File src= new File("C:\\Users\\Tezza\\eclipse-workspace\\ECommerceStore\\src\\ExcelFiles\\TestData.xlsx");
 		 
 		FileInputStream fis=new FileInputStream(src);
 		

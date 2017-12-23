@@ -7,7 +7,11 @@ import lib.ExcelDataConfig;
 public class ReadExcelData {
 	
 	
-  @Test
+  public ReadExcelData(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+@Test
   public void Excel() {
 	  
 	  ExcelDataConfig excel= new ExcelDataConfig("C:\\Users\\Tezza\\eclipse-workspace\\ExcelData\\TestData.xlsx");
