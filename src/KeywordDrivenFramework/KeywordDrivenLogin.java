@@ -24,6 +24,7 @@ public class KeywordDrivenLogin {
 				ActionKeywords.openBrowser();
 			} else if (sActionKeyword.equals("navigate")) {
 				ActionKeywords.navigate();
+
 			}
 
 			else if (sActionKeyword.equals("openLoginpage")) {
