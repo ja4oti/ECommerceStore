@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56658" started-at="2017-12-23T14:34:33Z" finished-at="2017-12-23T14:35:29Z">
+  <suite name="Default suite" duration-ms="9" started-at="2017-12-23T17:04:47Z" finished-at="2017-12-23T17:04:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56658" started-at="2017-12-23T14:34:33Z" finished-at="2017-12-23T14:35:29Z">
-      <class name="testECommerceSite.testLogin">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testECommerceSite.testLogin@7f2cfe3f]" name="openBrowser" duration-ms="30438" started-at="2017-12-23T17:34:33Z" finished-at="2017-12-23T17:35:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openLoginpage()[pri:1, instance:testECommerceSite.testLogin@7f2cfe3f]" name="openLoginpage" duration-ms="9061" started-at="2017-12-23T17:35:03Z" finished-at="2017-12-23T17:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLoginpage -->
-        <test-method status="PASS" signature="inputEmail()[pri:2, instance:testECommerceSite.testLogin@7f2cfe3f]" name="inputEmail" duration-ms="301" started-at="2017-12-23T17:35:12Z" finished-at="2017-12-23T17:35:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputEmail -->
-        <test-method status="PASS" signature="inputPassword()[pri:3, instance:testECommerceSite.testLogin@7f2cfe3f]" name="inputPassword" duration-ms="1223" started-at="2017-12-23T17:35:13Z" finished-at="2017-12-23T17:35:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputPassword -->
-        <test-method status="PASS" signature="clickLoginbutton()[pri:4, instance:testECommerceSite.testLogin@7f2cfe3f]" name="clickLoginbutton" duration-ms="5677" started-at="2017-12-23T17:35:14Z" finished-at="2017-12-23T17:35:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginbutton -->
-        <test-method status="PASS" signature="Logout()[pri:5, instance:testECommerceSite.testLogin@7f2cfe3f]" name="Logout" duration-ms="9489" started-at="2017-12-23T17:35:20Z" finished-at="2017-12-23T17:35:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:6, instance:testECommerceSite.testLogin@7f2cfe3f]" name="closeBrowser" duration-ms="400" started-at="2017-12-23T17:35:29Z" finished-at="2017-12-23T17:35:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testECommerceSite.testLogin -->
+    <test name="Default test" duration-ms="9" started-at="2017-12-23T17:04:47Z" finished-at="2017-12-23T17:04:47Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
