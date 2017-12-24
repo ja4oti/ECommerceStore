@@ -13,6 +13,8 @@ Tools and applications needed for the project: 1. Eclipse to run Selenium webdri
 project==Automation of Online E-Commerce Store
 page URL=="http://automationpractice.com/index.php"
 
+The tests are to be run  Using Test NG for test reports to be generated
+
 Test cases created for: 1. Login(verify different login scenarios using valid and invalid credentials),
 				2. Order of Item(dress) once user has successfully logged into the system,
 				3.change of user info in profile section(verify if user can change profile info).
@@ -24,7 +26,13 @@ Other Test Cases are for:
 	The script refers to excel.xlsx file with the column of Keywords, and only moves to the next statement if 
 	keyword used in class corresponds with one in the excel file
 	
-2. Data Driven framework: The login test case is tested with different credentials of email and password combinations.
+2. Data Driven framework: 
+pre requisites
+		1. JXL jar file
+		2. @DataProvider Test NG annotation
+		3. Testdata xls file with input data for email and password and an output of result status
+
+The login test case is tested with different credentials of email and password combinations.
 	The credentials are contained in an excel file with different data sets of email, and password.
 	This is used to verify if user can be able to log into the system by providing invalid email and invalid password.
 	And also the error message displayed when user tries to login using the different credentials.
