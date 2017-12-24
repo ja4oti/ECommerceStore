@@ -19,6 +19,20 @@ Go to File menu on eclipse>>click on import>>Existing projects into workspace>>B
 
 The project will appear along the other projects in your workspace
 
+Contents of ECommerceStore Project
+	
+	src>>packages>>
+	
+	1.config -contains java file with class Action keywords, that will be called in the KeywrdDriven Framework
+	
+	2.DataDrivenFramework-Contains TestNg class of DataDrivenLogin, used to automate the various scenarios of login using the 	various login credentials provided in the data test excel file.
+	
+	3. KeywordDrivenFramework-contains class KeywordDrivenLogin java file used to automate the various keywords used in the testECommerceSite package for testing the site.
+	
+	4. testEcommerceSite-contains test cases for testing different functionalities of the website, such as login page and contacts module.
+	
+	5. utility-contains configurations of the excel files, the actions which will be performed on the excell file, such as geting data in the cells and rows.
+
 Prerequisites
 		1. Apache POI jar files
 		2. JXL jar file
@@ -53,6 +67,8 @@ The login test case is tested with different credentials of email and password c
 	The credentials are contained in an excel file with different data sets of email, and password.
 	This is used to verify if user can be able to log into the system by providing invalid email and invalid password.
 	And also the error message displayed when user tries to login using the different credentials.
+	
+
 
 Authors
 Japheth N. Odiwuor

@@ -2,7 +2,7 @@
 <suite name="TestECommerceSite">
 	<test name="Test Login">
 		<classes>
-			<class name="testECommerceSite.testLogin">
+			<class name="testECommerceSite.contactUSpage">
 			</class>
 		</classes>
 	</test>

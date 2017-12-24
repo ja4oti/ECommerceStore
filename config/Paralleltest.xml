@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestECommerceSite" parallel="tests">
+	<test name="Test Login">
+		<classes>
+			<class name="testECommerceSite.testLogin" />
+		</classes>
+	</test>
+	<test name="Test contactUS">
+		<classes>
+			<class name="testECommerceSite.contactUSpage" />
+		</classes>
+	</test>
+</suite>
