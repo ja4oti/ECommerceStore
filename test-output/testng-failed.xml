@@ -3,17 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testGrouping.testLogin">
+      <class name="DataDrivenFramework.DataDrivenLoginTest">
         <methods>
-          <include name="inputPassword"/>
-          <include name="openLoginpage"/>
-          <include name="openBrowser"/>
-          <include name="clickLoginbutton"/>
-          <include name="navigate"/>
-          <include name="Logout"/>
-          <include name="inputEmail"/>
+          <include name="userLogin" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- testGrouping.testLogin -->
+      </class> <!-- DataDrivenFramework.DataDrivenLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

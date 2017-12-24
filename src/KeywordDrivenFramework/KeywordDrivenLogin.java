@@ -3,18 +3,15 @@ package KeywordDrivenFramework;
 import config.ActionKeywords;
 import utility.ExcelUtils;
 
-
 public class KeywordDrivenLogin {
 
 	public static void main(String[] args) throws Exception {
-		// Declaring the path of the Excel File with the name of the Excel File
 		String sPath = "C:\\Users\\Tezza\\eclipse-workspace\\ECommerceStore\\src\\ExcelFiles\\KeywordDrivenFramework.xlsx";
 
 		// passing the Excel path and SheetName as arguments to connect with Excel File
 		ExcelUtils.setExcelFile(sPath, "Test Steps");
 
-		// This is the loop for reading the values of the column 3(Action Keywords) row
-		// by row
+		// This is the loop for reading the values of the column 3(Action Keywords) row by row
 
 		for (int iRow = 1; iRow <= 10; iRow++) {
 			// storing value of excel cell in sActionKeyword string variable

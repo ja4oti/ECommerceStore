@@ -2,16 +2,38 @@
 
 <selenium web driver automation>
 
-browser==firefox browser
-windows==microsoft windows 10
-
-Tools and applications needed for the project: 1. Eclipse to run Selenium webdriver,
-						2. TestNG for running tests creating test suites, and generating reports of test runs
-						3. Download Apache POI, and add jar files to eclipse library.
-					
-	
+Project Title
 project==Automation of Online E-Commerce Store
 page URL=="http://automationpractice.com/index.php"
+
+Sample automation project of an online ecommerce store that sells clothes.
+A user who visits the website is required to login first before placing an order.
+Login is only allowed for users who have regestered accounts with the online store.
+once logged into the site, user can order for an item, contact the website owners if they have any question or comments, change their profile information.
+
+Getting Started
+Assumptions: You have already downloaded and are running eclipse
+			: you have already downloaded the selenium project from GitHub
+
+Go to File menu on eclipse>>click on import>>Existing projects into workspace>>Browse for root directory of where you saved your downloaded project>>Click on finish.
+
+The project will appear along the other projects in your workspace
+
+Prerequisites
+		1. Apache POI jar files
+		2. JXL jar file
+		3. TestNG(running tests with report generation, as well as for test NG annotation features)
+		4. Testdata xls file with input data for email and password and an output of result status
+
+Installing
+download Apache POI from "http://www-us.apache.org/dist/poi/release/bin/poi-bin-3.17-20170915.zip"
+unzip the downloaded file to a location of your choice.>Go to eclipse workspace>click on project>properties>java build 
+path>libraries>add external jars>then locate where you extracted the Apache POI files and add them to the library>click on apply>apply and close
+
+download JXL jar file from "http://www.java2s.com/Code/JarDownload/jxl/jxl.jar.zip"
+unzip the file and follow the same steps from Eclipse workspace used to add Apache POI jar files to access and add the JXL jar file to the library.
+
+Install TestNG:Launch the Eclipse IDE and from Help menu, click “Install New Software”.>You will see a dialog window, click “Add” button.>Type name as you wish, lets take “TestNG” and type “http://beust.com/eclipse/” as location. Click OK>>You come back to the previous window but this time you must see TestNG option in the available software list. Just Click TestNG and press “Next” button>> Click “I accept the terms of the license agreement” then click Finish>> You may or may not encounter a Security warning, if in case you do just click OK>> Click Next again on the succeeding dialog box until it prompts you to Restart the Eclipse>>You are all done now, just Click Yes>>Proceed with your workplace>>After restart, verify if TestNG was indeed successfully installed. Right click on you project and see if TestNG is displayed in the opened menu.
 
 The tests are to be run  Using Test NG for test reports to be generated
 
@@ -27,14 +49,11 @@ Other Test Cases are for:
 	keyword used in class corresponds with one in the excel file
 	
 2. Data Driven framework: 
-pre requisites
-		1. JXL jar file
-		2. @DataProvider Test NG annotation
-		3. Testdata xls file with input data for email and password and an output of result status
-
 The login test case is tested with different credentials of email and password combinations.
 	The credentials are contained in an excel file with different data sets of email, and password.
 	This is used to verify if user can be able to log into the system by providing invalid email and invalid password.
 	And also the error message displayed when user tries to login using the different credentials.
-				
+
+Authors
+Japheth N. Odiwuor
 
