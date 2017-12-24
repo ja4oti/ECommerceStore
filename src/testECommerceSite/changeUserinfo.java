@@ -3,9 +3,10 @@ package testECommerceSite;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestDependencychangeUserinfo {
+public class changeUserinfo {
 
 	WebDriver driver = new FirefoxDriver();
 
@@ -46,6 +47,17 @@ public class TestDependencychangeUserinfo {
 		driver.findElement(By.xpath(
 			"/html/body/div[1]/div[2]/div/div[3]/div/div/div[1]/ul/li[4]/a/span"
 			)).click();
+		
+		String actual = driver.getTitle();
+		String Expected = "Identity - My Store";
+
+		try {
+			Assert.assertEquals(actual, Expected);
+			System.out.println("Change Info Page accessed succesfully");
+		} catch (Exception e) {
+
+			System.out.println("Error accessing profile page");
+		}
 		
 		// change first name
 		driver.findElement(By.id("firstname")).clear();

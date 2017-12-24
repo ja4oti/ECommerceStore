@@ -3,11 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="DataDrivenFramework.DataDrivenLoginTest">
+      <class name="testECommerceSite.testLogin">
         <methods>
-          <include name="userLogin" invocation-numbers="0 1 2 3 4"/>
+          <include name="Logout"/>
         </methods>
-      </class> <!-- DataDrivenFramework.DataDrivenLoginTest -->
+      </class> <!-- testECommerceSite.testLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

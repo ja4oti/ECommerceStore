@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestECommerceSite">
-	<test name="Test Send Message">
+	<test name="Change User Profile Info">
 		<classes>
-			<class name="testECommerceSite.contactUSpage">
+			<class name="testECommerceSite.changeUserinfo">
 			</class>
 		</classes>
 	</test>

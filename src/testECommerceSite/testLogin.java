@@ -3,6 +3,7 @@ package testECommerceSite;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class testLogin {
@@ -26,6 +27,17 @@ public class testLogin {
 	public void openLoginpage() {
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/header/div[2]/div/div/nav/div[1]/a")).click();
 
+		String actual = driver.getTitle();
+		String Expected = "Login - My Store";
+
+		try {
+			Assert.assertEquals(actual, Expected);
+			System.out.println("User Succesful in accessing Login Page");
+		} catch (Exception e) {
+
+			System.out.println("ERROR ACCESSING LOGIN PAGE");
+		}
+
 	}
 
 	@Test(priority = 3)
@@ -47,6 +59,21 @@ public class testLogin {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+		String actual = driver.getTitle();
+		String Expected = "My account - My Store";
+
+		try {
+			Assert.assertEquals(actual, Expected);
+			System.out.println("login Test passed");
+		} catch (Exception e) {
+
+			System.out.println("ERROR:LOGIN FAILED");
+		}
+
+		// cookies must be deleted for automation engine to successfully log out.
+		// If cookies not deleted LOGOUT ERROR OCCURS
+		driver.manage().deleteAllCookies();
 	}
 
 	@Test(priority = 6)
@@ -57,6 +84,17 @@ public class testLogin {
 			Thread.sleep(3000);
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+
+		String actual = driver.getTitle();
+		String Expected = "Login - My Store";
+
+		try {
+			Assert.assertEquals(actual, Expected);
+			System.out.println("User Succesfully loged out");
+		} catch (Exception e) {
+
+			System.out.println("ERROR::LOGOUT UNSUCCESSFUL");
 		}
 	}
 

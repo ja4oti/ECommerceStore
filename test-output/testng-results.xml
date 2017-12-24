@@ -1,49 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68431" started-at="2017-12-24T15:11:48Z" finished-at="2017-12-24T15:12:56Z">
+  <suite name="TestECommerceSite" duration-ms="36350" started-at="2017-12-24T15:58:33Z" finished-at="2017-12-24T15:59:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68431" started-at="2017-12-24T15:11:48Z" finished-at="2017-12-24T15:12:56Z">
-      <class name="testECommerceSite.contactUSpage">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testECommerceSite.contactUSpage@32115b28]" name="openBrowser" duration-ms="3735" started-at="2017-12-24T18:11:48Z" finished-at="2017-12-24T18:11:51Z">
+    <test name="Parallel Test" duration-ms="36350" started-at="2017-12-24T15:58:33Z" finished-at="2017-12-24T15:59:09Z">
+      <class name="testECommerceSite.changeUserinfo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testECommerceSite.changeUserinfo@68746f22]" name="openBrowser" duration-ms="32763" started-at="2017-12-24T18:58:36Z" finished-at="2017-12-24T18:59:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="navigate()[pri:1, instance:testECommerceSite.contactUSpage@32115b28]" name="navigate" duration-ms="36102" started-at="2017-12-24T18:11:51Z" finished-at="2017-12-24T18:12:27Z">
+      </class> <!-- testECommerceSite.changeUserinfo -->
+      <class name="testECommerceSite.contactUSpage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testECommerceSite.contactUSpage@7d7758be]" name="openBrowser" duration-ms="3530" started-at="2017-12-24T18:58:33Z" finished-at="2017-12-24T18:58:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate -->
-        <test-method status="PASS" signature="openLoginpage()[pri:2, instance:testECommerceSite.contactUSpage@32115b28]" name="openLoginpage" duration-ms="4738" started-at="2017-12-24T18:12:27Z" finished-at="2017-12-24T18:12:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLoginpage -->
-        <test-method status="PASS" signature="inputEmail()[pri:3, instance:testECommerceSite.contactUSpage@32115b28]" name="inputEmail" duration-ms="129" started-at="2017-12-24T18:12:32Z" finished-at="2017-12-24T18:12:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputEmail -->
-        <test-method status="PASS" signature="inputPassword()[pri:4, instance:testECommerceSite.contactUSpage@32115b28]" name="inputPassword" duration-ms="123" started-at="2017-12-24T18:12:32Z" finished-at="2017-12-24T18:12:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputPassword -->
-        <test-method status="PASS" signature="clickLoginbutton()[pri:5, instance:testECommerceSite.contactUSpage@32115b28]" name="clickLoginbutton" duration-ms="6904" started-at="2017-12-24T18:12:32Z" finished-at="2017-12-24T18:12:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginbutton -->
-        <test-method status="PASS" signature="ContactUS()[pri:6, instance:testECommerceSite.contactUSpage@32115b28]" name="ContactUS" duration-ms="10131" started-at="2017-12-24T18:12:39Z" finished-at="2017-12-24T18:12:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ContactUS -->
-        <test-method status="PASS" signature="clickSend()[pri:7, instance:testECommerceSite.contactUSpage@32115b28]" name="clickSend" duration-ms="6163" started-at="2017-12-24T18:12:49Z" finished-at="2017-12-24T18:12:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSend -->
-        <test-method status="PASS" signature="closeBrowser()[pri:8, instance:testECommerceSite.contactUSpage@32115b28]" name="closeBrowser" duration-ms="335" started-at="2017-12-24T18:12:56Z" finished-at="2017-12-24T18:12:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
+        </test-method> <!-- openBrowser -->
       </class> <!-- testECommerceSite.contactUSpage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Parallel Test -->
+  </suite> <!-- TestECommerceSite -->
 </testng-results>
